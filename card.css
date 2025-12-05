@@ -1,0 +1,53 @@
+.card-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.profile-card {
+    width: 180px;
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.profile-img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #4da3ff; /* blue border like your sample */
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.role, .followers {
+    font-size: 14px;
+    color: #555;
+    margin: 2px 0;
+}
+
+.follow-btn {
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #dff0ff;
+    color: #0080ff;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.follow-btn:hover {
+    background: #0080ff;
+    color: white;
+}
