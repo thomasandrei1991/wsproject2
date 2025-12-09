@@ -1,9 +1,8 @@
-$name = "John";
-$age = 34;
-
-if($age < 18){
-    console.log('unable to vote due to age restriction.');
-}
-else{
-    console.log('qualified to vote');
-}
+document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('nameForm').addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent form submission
+        let name = document.getElementById('name').value;
+        alert('Hello, ' + name + '!');
+        this.reset(); // Clear the form after submission
+    });
+});
